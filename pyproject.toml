@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ASDBbRest"
+version = "0.1.0"
+description = ""
+authors = ["Matt Deakyne <m.d@ku.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyterlab = "^0.35.4"
+records = "^0.5.3"
+maya = "^0.6.1"
+pandas = "^0.24.2"
+cx_oracle = "^7.1"
+python-dotenv = "^0.10.3"
+bbrest = "^0.2.5"
+dask = "^2.0"
+cloudpickle = "^1.2"
+toolz = "^0.9.0"
+pyarrow = "=0.12"
+hvplot = "^0.4.0"
+faker = "^2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
